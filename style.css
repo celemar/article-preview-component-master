@@ -92,22 +92,22 @@ button {
   position: relative;
 }
 
-.share-btn:hover {
+.share-button:hover {
   background-color: hsl(217, 19%, 35%);
 }
 
-.share-btn {
+.share-button {
   padding: 0.55em;
   border-radius: 50%;
   transition: all 0.25s ease;
   background-color: hsl(210, 46%, 95%);
 }
 
-.share-btn:hover {
+.share-button:hover {
   background-color: hsl(217, 19%, 35%);
 }
 
-.share-btn:hover .share-icon {
+.sshare-button:hover .share-icon {
   fill: #fff;
 }
 
@@ -115,11 +115,11 @@ button {
   fill: hsl(214, 17%, 51%);
 }
 
-.share-btn.active .share-icon {
+.share-button.active .share-icon {
   fill: #fff;
 }
 
-.share-btn.active {
+.sshare-button.active {
   background-color: hsl(214, 17%, 51%);
 }
 
